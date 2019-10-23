@@ -5,7 +5,7 @@ import tracery
 
 rules = {
 
-"origin": ["#[myThing:#concreteNoun#][mySub:#substance#][myRec:#recipeType#]saying# Welcome to Dream Recipes. ...#[recDesc:#recDescription#][dish:#animal#]intro# Happy cooking!"
+"origin": "#[myThing:#concreteNoun#][mySub:#substance#][myRec:#recipeType#]saying# Welcome to Dream Recipes. ...#[recDesc:#recDescription#][dish:#animal.capitalize#]intro# Happy cooking!"
 + "\n\nMethods"+ "\n1. Take the boneless, skinless #dish#, and shred into bite-size pieces using a couple of forks. "
 + "\n2. Heat the cauldron over a flame, and add 1 cup of #liquid#. Add 1 tsp chopped #solid#, and 3 #crazyIngred# to the mix."
 + "\n3. Once the pot starts to boil, add the #dish# meat. Fry for 5 mins until crisp. "
@@ -13,7 +13,7 @@ rules = {
 + "\n5. Cook for 5 mins to soak the #dish# in the broth. You might need to add an extra ladleful of #liquid# to ensure the #myRec# is #totally# potent. "
 
 + "\n\n Our tried-and-true formula is sure to be a keeper. Simple ingredients, easy directions, and plenty of #concept# and #concept# make the #myRec# more #evaluationAdjBare# than ever. Best of all, it's totally customizable—add your favorite nutritious mix-ins such as fresh #crazyIngred#, sliced #substance#, or a dollop of #substance#." 
-+ "\n#concl# It won't be long until the effect takes place. Until then, goodnight, dear reader. And sweet dreams."],
++ "\n#concl# It won't be long until the effect takes place. Until then, goodnight, dear reader. And sweet dreams.",
 
 "themeAdj":["lost", "desired", "redeemed", "awakened", "forgotten", "promised", "broken", "forgiven", "remembered", "betrayed"],
 "themeNoun":["the future", "love", "drinking", "space travel", "the railroad", "your childhood", "summertime", "the ocean", "wanderlust", "war", "divorce", "nature", "pain", "hope", "a home", "a marriage", "family", "death"],
